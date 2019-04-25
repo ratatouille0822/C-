@@ -114,6 +114,10 @@ void test01()
 
 	Computer* computer = new Computer(intel_cpu, nvidia_gpu, uni_mem);
 	computer->ComputerRuns();
+
+	Computer* computer1;
+	decltype(computer) computer2;
+
 	delete computer;
 }
 int main()

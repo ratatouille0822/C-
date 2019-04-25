@@ -1,0 +1,15 @@
+db
+db.test.insert(('a': 'b'))
+;
+db.test.insert(('a':'b'))
+clear
+db.test.insert((a:b))
+db.test.insert('a':'b')
+db.test.insert(('a':'b'))
+db
+db.test.insert(("a":"b"))
+db
+test.show
+db.teset.insert((`a`:`b`));
+db
+db.getUser()
